@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Avenirnext';
+  src: url(fonts/AvenirNext-Regular.ttf), url(fonts/AvenirNext-Regular.eot), url(fonts/AvenirNext-Regular.otf), url(fonts/AvenirNext-Regular.svg), url(fonts/AvenirNext-Regular.woff);
+}
+
+html {
+  font-family: 'Avenirnext';
+}
+
+body {
+	line-height: 1.2;
+}
+
+b, .u-fw-bold, .user-entry strong {
+	font-family: Avenirnext-bold;
+}
+
+.spot-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}

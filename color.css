@@ -1,0 +1,87 @@
+:root {
+  --color-primary: #4b118b; /*Morado*/
+  --color-base: #ff3e00; /*Naranja*/
+  --color-complementary: #81d442; /* Verde*/
+  --color-gray-dark: rgba(0, 0, 0, 0.87);
+  --color-gray-light: #f7f7f7;
+  --color-white: #ffffff;
+  --color-blue: #5fb6b0;
+  --color-blue-light: #f7f9f9;
+  --color-blue-alt: #103a56; /*Azul petróleo*/
+  --color-mustard-alt: rgb(204,138,0); /*Mostaza*/
+}
+
+/*--------------------Background Colors--------------------*/
+.spot-u-fill--primary {
+  background-color: var(--color-primary)
+}
+
+.spot-u-fill--complementary {
+  background-color: var(--color-complementary)
+}
+
+.spot-u-fill--base {
+  background-color: var(--color-base);
+}
+
+.spot-u-fill--gray-dark {
+  background-color: var(--color-gray-dark);
+}
+
+.spot-u-fill--gray-light {
+  background-color: var(--color-gray-light);
+}
+
+.spot-u-fill--white {
+  background-color: var(--color-white);
+}
+
+.spot-u-fill--blue {
+  background-color: var(--color-blue);
+}
+
+.spot-u-fill--blue-light {
+  background-color: var(--color-blue-light);
+}
+
+/*--------------------Utilities Colors--------------------*/
+
+.spot-u-color--primary {
+  color: var(--color-primary)
+}
+
+.spot-u-color--complementary {
+  color: var(--color-complementary)
+}
+
+.spot-u-color--base {
+  color: var(--color-base);
+}
+
+.spot-u-color--gray-dark {
+  color: var(--color-gray-dark);
+}
+
+.spot-u-color--gray-light {
+  color: var(--color-gray-light);
+}
+
+.spot-u-color--white {
+  color: var(--color-white);
+}
+
+.spot-u-color--blue {
+  color: var(--color-blue);
+}
+
+.spot-u-color--blue-light {
+  color: var(--color-blue-light);
+}
+
+.spot-u-color--blue-alt {
+  color: var(--color-blue-alt: #103a56;);
+}
+
+.spot-u-color--mustard {
+  color: var(--color-mustard-alt: rgb(204,138,0););
+}

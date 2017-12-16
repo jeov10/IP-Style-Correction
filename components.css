@@ -1,0 +1,35 @@
+/*
+// Components
+//
+//Here are specified all components styles used inside de Inverspot proyect
+//
+//Styleguide
+*/
+
+/*
+// Buttons
+//
+//Styleguide
+*/
+
+.spot-c-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Avenirnext';
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.spot-c-list {
+  list-style: inside;
+}
+
+.spot-c-list--bare {
+  list-style: none;
+}
