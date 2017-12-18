@@ -116,11 +116,24 @@
   width: 100%;
 }
 
-.spot-u-map {
-  width: 100%;
-  height: 288px;
-}
-
 .spot-c-faqs-contatier {
   width: 100%;
+}
+
+.spot-c-casos-item {
+  width: 304px;
+}
+
+.spot-c-casos-item__text-center {
+  position: absolute;
+  margin-top: -204px;
+  margin-left: 80px;
+}
+
+.spot-c-casos-item__footer-info_right {
+  width: 40%;
+}
+
+.spot-c-casos-item__footer-info_left {
+  width: 60%;
 }
