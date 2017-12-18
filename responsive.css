@@ -37,6 +37,10 @@
     width: 25%;
   }
 
+  .spot-c-faqs-contatier {
+    width: 48%;
+  }
+
 }
 
 @media screen and (min-width: 1280px) {
