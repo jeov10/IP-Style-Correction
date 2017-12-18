@@ -29,6 +29,14 @@
     width: 30% !important;
   }
 
+  .spot-c-full-form {
+    width: 70%;
+  }
+
+  .spot-c-adress-container {
+    width: 25%;
+  }
+
 }
 
 @media screen and (min-width: 1280px) {

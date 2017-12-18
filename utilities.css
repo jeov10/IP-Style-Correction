@@ -24,35 +24,35 @@
 }
 
 .spot-u-border-left--1 {
-  border-left: 1px;
+  border-left: 1px solid;
 }
 
 .spot-u-border-left--2 {
-  border-left: 2px;
+  border-left: 2px solid;
 }
 
 .spot-u-border-right--1 {
-  border-right: 1px;
+  border-right: 1px solid;
 }
 
 .spot-u-border-right--2 {
-  border-right: 2px;
+  border-right: 2px solid;
 }
 
 .spot-u-border-top--1 {
-  border-top: 1px;
+  border-top: 1px solid;
 }
 
 .spot-u-border-top--2 {
-  border-top: 2px;
+  border-top: 2px solid;
 }
 
 .spot-u-border-bottom--1 {
-  border-bottom: 1px;
+  border-bottom: 1px solid;
 }
 
 .spot-u-border-bottom--2 {
-  border-bottom: 2px;
+  border-bottom: 2px solid;
 }
 
 .spot-u-border-bottom--dotted-1 {
