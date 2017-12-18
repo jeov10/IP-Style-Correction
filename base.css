@@ -3,16 +3,30 @@
   src: url(fonts/AvenirNext-Regular.ttf), url(fonts/AvenirNext-Regular.eot), url(fonts/AvenirNext-Regular.otf), url(fonts/AvenirNext-Regular.svg), url(fonts/AvenirNext-Regular.woff);
 }
 
+@font-face {
+  font-family: 'Avenirnext-bold';
+  src: url(fonts/AvenirNext-Bold.ttf), url(fonts/AvenirNext-Bold.eot), url(fonts/AvenirNext-Bold.otf), url(fonts/AvenirNext-Bold.svg), url(fonts/AvenirNext-Bold.woff);
+}
+
+@font-face {
+  font-family: 'Avenirnext-medium';
+  src: url(fonts/AvenirNext-Medium.ttf), url(fonts/AvenirNext-Medium.eot), url(fonts/AvenirNext-Medium.otf), url(fonts/AvenirNext-Medium.svg), url(fonts/AvenirNext-Medium.woff);
+}
+
 html {
   font-family: 'Avenirnext';
 }
 
-body {
-	line-height: 1.2;
+b {
+	font-family: 'Avenirnext-medium';
 }
 
-b, .u-fw-bold, .user-entry strong {
-	font-family: Avenirnext-bold;
+strong {
+	font-family: 'Avenirnext-bold';
+}
+
+body {
+	line-height: 1.2 !important;
 }
 
 .spot-container {

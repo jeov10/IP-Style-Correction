@@ -1,0 +1,40 @@
+@media screen and (min-width: 544px) {
+  .spot-c-card__item {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .spot-c-md-box-item {
+    width: 33.3%;
+  }
+
+  .spot-c-card__item {
+    width: 28%;
+  }
+
+  .spot-c-postit {
+    width: 30%;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  .spot-c-card__item {
+    width: 25%;
+  }
+
+  .spot-c-postit {
+    width: 23%;
+  }
+
+  .spot-c-postit--30 {
+    width: 30% !important;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}

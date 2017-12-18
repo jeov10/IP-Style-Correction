@@ -1,9 +1,15 @@
+/*
+// Colors
+//
+//Styleguide
+*/
+
 :root {
   --color-primary: #4b118b; /*Morado*/
   --color-base: #ff3e00; /*Naranja*/
   --color-complementary: #81d442; /* Verde*/
   --color-gray-dark: rgba(0, 0, 0, 0.87);
-  --color-gray-light: #f7f7f7;
+  --color-gray-light: lightgray;
   --color-white: #ffffff;
   --color-blue: #5fb6b0;
   --color-blue-light: #f7f9f9;
@@ -11,13 +17,18 @@
   --color-mustard-alt: rgb(204,138,0); /*Mostaza*/
 }
 
-/*--------------------Background Colors--------------------*/
+/*
+// Background Colors
+//
+//Styleguide
+*/
+
 .spot-u-fill--primary {
-  background-color: var(--color-primary)
+  background-color: var(--color-primary) !important;
 }
 
 .spot-u-fill--complementary {
-  background-color: var(--color-complementary)
+  background-color: var(--color-complementary);
 }
 
 .spot-u-fill--base {
@@ -44,7 +55,11 @@
   background-color: var(--color-blue-light);
 }
 
-/*--------------------Utilities Colors--------------------*/
+/*
+// Utilities Colors
+//
+//Styleguide
+*/
 
 .spot-u-color--primary {
   color: var(--color-primary)
@@ -84,4 +99,22 @@
 
 .spot-u-color--mustard {
   color: var(--color-mustard-alt: rgb(204,138,0););
+}
+
+/*
+// Border Colors
+//
+//Styleguide
+*/
+
+.spot-u-border-color--gray-light {
+  border-color: var(--color-gray-light) !important;
+}
+
+.spot-u-border-color--primary {
+  border-color: var(--color-primary) !important;
+}
+
+.spot-u-border-color--base {
+  border-color: var(--color-base) !important;
 }

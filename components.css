@@ -17,7 +17,8 @@
     -moz-appearance: none;
     appearance: none;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 0px;
+    border: none;
     cursor: pointer;
     display: inline-block;
     font-family: 'Avenirnext';
@@ -32,4 +33,62 @@
 
 .spot-c-list--bare {
   list-style: none;
+}
+
+.spot-c-md-box-item {
+  width: 100%;
+}
+
+.spot-c-md-box-item {
+  width: 100%;
+}
+
+.spot-c-card--h-224px {
+  height: 224px;
+}
+
+.spot-c-card__item {
+  width: 100%;
+
+}
+
+.spot-c-container-squeare--72px {
+  margin: auto;
+  width: 72px;
+  height: 72px;
+  border: 8px solid white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 16px;
+}
+
+.spot-c-corner {
+  border-style: solid;
+  border-width: 0 70px 40px 0;
+  float: right;
+  height: 0px;
+  width: 0px;
+  border-color: transparent var(--color-primary) transparent transparent;
+}
+
+.spot-c-corner--color-base {
+  border-style: solid;
+  border-width: 0 70px 40px 0;
+  float: right;
+  height: 0px;
+  width: 0px;
+  border-color: transparent var(--color-base) transparent transparent;
+}
+
+.spot-c-corner__inside {
+  position: relative;
+  right: -40px;
+  top: 2px;
+  transform: rotate(30deg);
+}
+
+.spot-c-postit {
+  width: 100%;
+  height: 264px;
 }
