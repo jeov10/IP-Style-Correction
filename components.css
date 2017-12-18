@@ -121,7 +121,7 @@
 }
 
 .spot-c-casos-item {
-  width: 304px;
+  width: 280px;
 }
 
 .spot-c-casos-item__text-center {
@@ -136,4 +136,8 @@
 
 .spot-c-casos-item__footer-info_left {
   width: 60%;
+}
+
+.spot-c-contaier--25 {
+  width: 100%;
 }

@@ -13,7 +13,10 @@
     width: 30%;
   }
 
-
+  .spot-c-contaier--25 {
+    width: 50%;
+  }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -39,6 +42,10 @@
 
   .spot-c-faqs-contatier {
     width: 48%;
+  }
+
+  .spot-c-contaier--25 {
+    width: 25%;
   }
 
 }
