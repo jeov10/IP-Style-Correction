@@ -27,13 +27,25 @@
     text-decoration: none;
 }
 
+/*
+// List style
+//
+//Styleguide
+*/
+
 .spot-c-list {
-  list-style: inside;
+  list-style: inside !important;
 }
 
 .spot-c-list--bare {
   list-style: none;
 }
+
+/*
+// Custom box-container
+//
+//Styleguide
+*/
 
 .spot-c-md-box-item {
   width: 100%;
@@ -47,9 +59,12 @@
   height: 224px;
 }
 
+.spot-c-card--h-272px {
+  height: 272px;
+}
+
 .spot-c-card__item {
   width: 100%;
-
 }
 
 .spot-c-container-squeare--72px {
