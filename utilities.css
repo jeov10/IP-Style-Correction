@@ -533,7 +533,7 @@ Styleguide 5.11.0
 /*
 Opacity
 
-spot-u-opacity - 
+spot-u-opacity -
 
 Styleguide 5.12.0
 */
@@ -548,4 +548,9 @@ Styleguide 5.12.0
 
 .spot-u-opacity-2 {
   opacity: 0.4;
+}
+
+.spot-u-coach__img--size {
+  width: 180px;
+  height: 180px;
 }

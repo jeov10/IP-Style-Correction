@@ -19,6 +19,14 @@
 
 }
 
+@media screen and (min-width: 800px) {
+
+  .spot-c-coach-container {
+    width: 50%;
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
   .spot-c-card__item {
     width: 25%;
