@@ -197,3 +197,11 @@ Styleguide 4.3.0
   top: 45%;
   left: 30%;
 }
+
+.spot-c-sucursal {
+
+}
+
+.spot-c-sucursal__item {
+  width: 100%;
+}

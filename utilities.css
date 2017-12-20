@@ -576,6 +576,16 @@ Styleguide 5.12.0
   width: 200px;
 }
 
+.spot-u-img--64px {
+  width: 64px;
+  height: 64px;
+}
+
+.spot-u-img--288px {
+  width: 288px;
+  height: 288px;
+}
+
 .spot-u-hover-button-first:hover {
 	background-color: #f1cfb0;
 }
