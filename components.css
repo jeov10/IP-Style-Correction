@@ -170,3 +170,30 @@ Styleguide 4.3.0
   width: 100%;
   height: 200px;
 }
+
+.spot-c-article__item {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.spot-c-mask {
+  background-color: rgba(170,170,170,0.9);
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.4s ease-out 0s;
+  opacity: 0;
+}
+
+.spot-c-article__item:hover .spot-c-mask {
+	width: 100%;
+	opacity: 1;
+}
+
+.spot-c-mask__button-position {
+  position: relative;
+  top: 45%;
+  left: 30%;
+}

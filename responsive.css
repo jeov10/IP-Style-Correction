@@ -6,6 +6,10 @@
   .spot-c-youtube-video {
     height: 288px;
   }
+
+  .spot-c-article__item {
+    width: 49%;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -37,6 +41,16 @@
   .spot-c-youtube-video {
     width: 49%;
     height: 250px;
+  }
+
+  .spot-c-article__item {
+    width: 24.8%;
+  }
+
+  .spot-c-mask__button-position {
+    position: relative;
+    top: 45%;
+    left: 25%;
   }
 
 }

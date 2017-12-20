@@ -69,6 +69,9 @@ spot-u-radius -
 
 Styleguide 5.2.0
 */
+.spot-u-radius--half {
+  border-radius: 4px;
+}
 
 .spot-u-radius {
   border-radius: 8px;
@@ -133,15 +136,18 @@ Styleguide 5.4.0
 }
 
 .spot-u-margin-x--1 {
-  margin: 0 8px 0 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .spot-u-margin-x--2 {
-  margin: 0 16px 0 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .spot-u-margin-x--3 {
-  margin: 0 32px 0 32px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .spot-u-margin-y--0 {
@@ -150,15 +156,18 @@ Styleguide 5.4.0
 }
 
 .spot-u-margin-y--1 {
-  margin: 8px 0 8px 0 ;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .spot-u-margin-y--2 {
-  margin: 16px 0 16px 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .spot-u-margin-y--3 {
-  margin: 32px 0 32px 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .spot-u-margin-top--0 {
@@ -553,4 +562,8 @@ Styleguide 5.12.0
 .spot-u-coach__img--size {
   width: 180px;
   height: 180px;
+}
+
+.spot-u-img-responsive {
+  width: 100%;
 }
