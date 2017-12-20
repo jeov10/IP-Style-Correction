@@ -1,7 +1,9 @@
 /*
-// Typographys
-//
-//Styleguide
+Typographys
+
+display, title & headings are defined
+
+Styleguide 2.0.0
 */
 
 .spot-display {
@@ -11,7 +13,7 @@
 
 .spot-title {
   font-size: 40px;
-  line-height: 48px;
+  line-height: 48px;s
 }
 
 .spot-h1 {

@@ -16,7 +16,7 @@
   .spot-c-contaier--25 {
     width: 50%;
   }
-  
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -29,7 +29,7 @@
   }
 
   .spot-c-postit--30 {
-    width: 30% !important;
+    width: 30%;
   }
 
   .spot-c-full-form {

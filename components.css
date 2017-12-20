@@ -1,22 +1,27 @@
 /*
-// Components
-//
-//Here are specified all components styles used inside de Inverspot proyect
-//
-//Styleguide
+Components
+
+
+Here are specified all components styles used inside de Inverspot proyect
+
+
+Styleguide 4.0.0
 */
 
 /*
-// Buttons
-//
-//Styleguide
+Buttons
+
+
+spot-c-button - general button, it will custom with utilities
+
+
+Styleguide 4.1.0
 */
 
 .spot-c-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-color: transparent;
     border-radius: 0px;
     border: none;
     cursor: pointer;
@@ -28,9 +33,11 @@
 }
 
 /*
-// List style
-//
-//Styleguide
+ List style
+
+
+
+Styleguide 4.2.0
 */
 
 .spot-c-list {
@@ -42,9 +49,13 @@
 }
 
 /*
-// Custom box-container
-//
-//Styleguide
+ Custom box-container
+
+
+ These containers are used to specific actions
+
+
+Styleguide 4.3.0
 */
 
 .spot-c-md-box-item {
@@ -140,4 +151,13 @@
 
 .spot-c-contaier--25 {
   width: 100%;
+}
+
+.spot-c-card:hover {
+  color: ;
+}
+
+.spot-c-casos-item__img--background-picture-size{
+  width: 280px;
+  height: 320px;
 }

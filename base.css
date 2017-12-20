@@ -1,3 +1,11 @@
+/*
+Base
+
+General Settings, fonts , line-height and layout
+
+Styleguide 1.0.0
+*/
+
 @font-face {
   font-family: 'Avenirnext';
   src: url(fonts/AvenirNext-Regular.ttf), url(fonts/AvenirNext-Regular.eot), url(fonts/AvenirNext-Regular.otf), url(fonts/AvenirNext-Regular.svg), url(fonts/AvenirNext-Regular.woff);
@@ -26,10 +34,18 @@ strong {
 }
 
 body {
-	line-height: 1.2 !important;
+	line-height: 1.5;
 }
 
-.spot-container {
+/*
+Layout
+
+spot-l-container - general container for all the proyect
+
+Styleguide 1.1.0
+*/
+
+.spot-l-container {
   max-width: 960px;
   margin: 0 auto;
   padding-left: 16px;

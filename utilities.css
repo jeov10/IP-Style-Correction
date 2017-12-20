@@ -1,15 +1,17 @@
 /*
-// Utilities
-//
-//Here are specified all utilities styles used inside de Inverspot proyect
-//
-//Styleguide
+Utilities
+
+Here are specified all utilities styles used inside de Inverspot proyect
+
+Styleguide 5.0.0
 */
 
 /*
-// Borders
-//
-//Styleguide
+Borders
+
+spot-u-border -
+
+Styleguide 5.1.0
 */
 .spot-u-border--0 {
   border: 0;
@@ -61,10 +63,13 @@
 }
 
 /*
-// Border-Radius
-//
-//Styleguide
+Border-Radius
+
+spot-u-radius -
+
+Styleguide 5.2.0
 */
+
 .spot-u-radius {
   border-radius: 8px;
 }
@@ -77,19 +82,29 @@
   border-radius: 100%;
 }
 
-.spot-u-shadow--gray-light {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
 .spot-u-radius-top-left-right {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 
 /*
-// Margin
-//
-//Styleguide
+ Shadow
+
+spot-u-shadow - This is only shadow utility used
+
+Styleguide 5.3.0
+*/
+
+.spot-u-shadow--gray-light {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*
+ Margin
+
+ spot-u-margin -
+
+Styleguide 5.4.0
 */
 
 .spot-u-margin--0 {
@@ -231,9 +246,11 @@
 }
 
 /*
-// padding
-//
-//Styleguide
+padding
+
+spot-u-padding -
+
+Styleguide 5.5.0
 */
 
 .spot-u-padding--0 {
@@ -287,7 +304,7 @@
 }
 
 .spot-u-padding-y--3 {
-  padding: 32px 0 32px 0;
+  padding: 32px 0 32px 0;Margin
 }
 
 .spot-u-padding-top--0 {
@@ -371,9 +388,11 @@
 }
 
 /*
-// Text-align
-//
-//Styleguide
+Text-align
+
+spot-u-text -
+
+Styleguide 5.6.0
 */
 
 .spot-u-text-align--center {
@@ -393,9 +412,11 @@
 }
 
 /*
-// Text-decoration
-//
-//Styleguide
+Text-decoration
+
+spot-u-text-decoration -
+
+Styleguide 5.7.0
 */
 
 .spot-u-text-decoration--underline {
@@ -407,9 +428,11 @@
 }
 
 /*
-// Text-transform
-//
-//Styleguide
+ Text-transform
+
+ spot-u-text-transform -
+
+Styleguide 5.8.0
 */
 
 .spot-u-text-transform--uppercase {
@@ -425,9 +448,11 @@
 }
 
 /*
-// Display
-//
-//Styleguide
+Display
+
+spot-u-display -
+
+Styleguide 5.9.0
 */
 
 .spot-u-display--block {
@@ -446,6 +471,14 @@
   display: none;
 }
 
+/*
+Display
+
+spot-u-justify - it works with spot-u-display--flex
+
+Styleguide 5.9.1
+*/
+
 .spot-u-justify-content--center {
   justify-content: center;
 }
@@ -458,14 +491,24 @@
   justify-content: space-around;
 }
 
+/*
+Display
+
+spot-u-flex-wrap--wrap - it works with spot-u-display--flex
+
+Styleguide 5.9.2
+*/
+
 .spot-u-flex-wrap--wrap {
   flex-wrap: wrap;
 }
 
 /*
-// Images
-//
-//Styleguide
+Images
+
+spot-u-imp-responsive - This particular utility is used at home page
+
+Styleguide 5.10.0
 */
 
 .spot-u-img-responsive {
@@ -473,14 +516,13 @@
   height: auto;
 }
 
-.spot-u-height--inherit {
-  height: inherit;
-}
-
 /*
-// Images
-//
-//Styleguide
+ Google Maps
+
+spot-u-map - responsive size to a google map
+
+
+Styleguide 5.11.0
 */
 
 .spot-u-map {
@@ -488,17 +530,22 @@
   height: 288px;
 }
 
-.spot-u-background-picture {
-  width: 280px;
-  height: 320px;
-}
-
 /*
-// Opacity
-//
-//Styleguide
+Opacity
+
+spot-u-opacity - 
+
+Styleguide 5.12.0
 */
 
+.spot-u-opacity-0 {
+  opacity: 0.2;
+}
+
 .spot-u-opacity-1 {
+  opacity: 0.2;
+}
+
+.spot-u-opacity-2 {
   opacity: 0.4;
 }

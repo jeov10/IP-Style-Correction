@@ -1,7 +1,9 @@
 /*
-// Colors
-//
-//Styleguide
+ Colors
+
+--color-name - variables used to define colors of all the proyect
+
+Styleguide 3.0.0
 */
 
 :root {
@@ -18,13 +20,13 @@
 }
 
 /*
-// Background Colors
-//
-//Styleguide
+ Background Colors
+
+Styleguide 3.1.0
 */
 
 .spot-u-fill--primary {
-  background-color: var(--color-primary) !important;
+  background-color: var(--color-primary);
 }
 
 .spot-u-fill--complementary {
@@ -56,9 +58,9 @@
 }
 
 /*
-// Utilities Colors
-//
-//Styleguide
+ Utilities Colors
+
+Styleguide 3.2.0
 */
 
 .spot-u-color--primary {
@@ -94,17 +96,17 @@
 }
 
 .spot-u-color--blue-alt {
-  color: var(--color-blue-alt: #103a56;);
+  color: var(--color-blue-alt);
 }
 
 .spot-u-color--mustard {
-  color: var(--color-mustard-alt: rgb(204,138,0););
+  color: var(--color-mustard-alt);
 }
 
 /*
-// Border Colors
-//
-//Styleguide
+ Border Colors
+
+Styleguide 3.3.0
 */
 
 .spot-u-border-color--gray-light {
