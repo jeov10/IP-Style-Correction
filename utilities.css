@@ -57,6 +57,10 @@ Styleguide 5.1.0
   border-bottom: 2px solid;
 }
 
+.spot-u-border-bottom--3 {
+  border-bottom: 3px solid;
+}
+
 .spot-u-border-bottom--dotted-1 {
   border-bottom: 1px;
   border-bottom-style: dotted;
@@ -566,4 +570,20 @@ Styleguide 5.12.0
 
 .spot-u-img-responsive {
   width: 100%;
+}
+
+.spot-u-img--200px {
+  width: 200px;
+}
+
+.spot-u-hover-button-first:hover {
+	background-color: #f1cfb0;
+}
+
+.spot-u-hover-button-second:hover {
+	background-color: var(--color-base);
+}
+
+.spot-u-hover-button-third:hover {
+	background-color: var(--color-primary);
 }

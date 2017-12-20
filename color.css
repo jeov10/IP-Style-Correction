@@ -53,8 +53,16 @@ Styleguide 3.1.0
   background-color: var(--color-blue);
 }
 
+.spot-u-fill--blue-alt {
+  background-color: var(--color-blue-alt);
+}
+
 .spot-u-fill--blue-light {
   background-color: var(--color-blue-light);
+}
+
+.spot-u-fill--mustard-alt {
+  background-color: var(--color-mustard-alt);
 }
 
 /*
@@ -119,4 +127,12 @@ Styleguide 3.3.0
 
 .spot-u-border-color--base {
   border-color: var(--color-base) !important;
+}
+
+.spot-u-border-color--mustard-alt {
+  border-color: var(--color-mustard-alt) !important;
+}
+
+.spot-u-border-color--blue-alt {
+  border-color: var(--color-blue-alt) !important;
 }
