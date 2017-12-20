@@ -2,6 +2,10 @@
   .spot-c-card__item {
     width: 40%;
   }
+
+  .spot-c-youtube-video {
+    height: 288px;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -17,12 +21,22 @@
     width: 50%;
   }
 
+  .spot-c-youtube-video {
+    width: 49%;
+    height: 200px;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
 
   .spot-c-coach-container {
     width: 50%;
+  }
+
+  .spot-c-youtube-video {
+    width: 49%;
+    height: 250px;
   }
 
 }
@@ -59,5 +73,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .spot-c-youtube-video {
+    width: 49%;
+    height: 288px;
+  }
 
 }

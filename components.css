@@ -165,3 +165,8 @@ Styleguide 4.3.0
 .spot-c-coach-container {
   width: 100%;
 }
+
+.spot-c-youtube-video {
+  width: 100%;
+  height: 200px;
+}
