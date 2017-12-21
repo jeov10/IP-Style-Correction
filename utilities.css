@@ -670,3 +670,8 @@ Styleguide 5.14.0
   font-size: 12px;
   margin: 8px;
 }
+
+.spot-u-home__footer_img--size {
+  width: 200px;
+  height: auto;
+}
