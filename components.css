@@ -192,16 +192,16 @@ Styleguide 4.3.0
 	opacity: 1;
 }
 
-.spot-c-mask__button-position {
+.spot-c-mask__button--position {
   position: relative;
   top: 45%;
   left: 30%;
 }
 
-.spot-c-sucursal {
-
+.spot-c-sucursal__item {
+  width: 100%;
 }
 
-.spot-c-sucursal__item {
+.spot-c-info-icon {
   width: 100%;
 }
