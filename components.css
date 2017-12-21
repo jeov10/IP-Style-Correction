@@ -78,6 +78,14 @@ Styleguide 4.3.0
   width: 100%;
 }
 
+.spot-c-card__item:hover .spot-u-fill--primary{
+  background-color: var(--color-base);
+}
+
+.spot-c-card__item:hover div.spot-c-card--h-272px > p {
+  color: var(--color-gray-dark);
+}
+
 .spot-c-container-squeare--72px {
   margin: auto;
   width: 72px;
