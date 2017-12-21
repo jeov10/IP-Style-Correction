@@ -15,6 +15,21 @@
     width: 100%;
     height: 248px;
   }
+
+  .spot-u-unete__header_text {
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  .spot-u-bg-unete--static {
+    background-size: 190%;
+  }
+
+  .spot-u-unete__container_img-cup--size {
+    width: 300px;
+    height: 300px;
+  }
+
 }
 
 @media screen and (min-width: 750px) {
@@ -37,6 +52,29 @@
 
   .spot-c-info-icon {
     width: 49%;
+  }
+
+  .spot-u-unete__header_text {
+    font-size: 24px;
+    margin: 8px;
+  }
+
+  .spot-u-bg-unete--static {
+    background-size: 125%;
+  }
+
+  .spot-u-unete__header_img--right {
+    width: 133px;
+    height: 52px;
+  }
+
+  .spot-u-unete__header_img--left {
+    width: 68px;
+    height: 68px;
+  }
+
+  .spot-u-unete__container_img-cup {
+    top: 120px;
   }
 
 }
@@ -99,6 +137,35 @@
 
   .spot-c-info-icon {
     width: 24%;
+  }
+
+  .spot-u-unete__header_text {
+    font-size: 24px;
+    margin: 8px;
+  }
+
+  .spot-u-bg-unete--static {
+    background-size: 106%;
+    padding-bottom: 320px;
+  }
+
+  .spot-u-unete__header_img--right {
+    width: 197px;
+    height: 72px;
+  }
+
+  .spot-u-unete__header_img--left {
+    width: 88px;
+    height: 88px;
+  }
+
+  .spot-u-unete__container_img-cup {
+    top: 170px;
+  }
+
+  .spot-u-unete__container_img-cup--size {
+    width: 500px;
+    height: 500px;
   }
 
 }

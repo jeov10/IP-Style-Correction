@@ -65,6 +65,10 @@ Styleguide 3.1.0
   background-color: var(--color-mustard-alt);
 }
 
+.spot-u-fill--gray-light-opacity {
+  background-color: rgba(211,211,211,0.2);
+}
+
 /*
  Utilities Colors
 
