@@ -601,3 +601,13 @@ Styleguide 5.12.0
 .spot-u-vimeo-video--size {
   width: 100%;
 }
+
+.spot-u-bg--static {
+  background-image: url("http://wp.inverspot.mx/wp-content/uploads/2017/12/2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.spot-u-margin--280 {
+  margin-top: 280px;
+}
