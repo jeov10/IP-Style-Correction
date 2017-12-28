@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>
+<head>
+  <meta charset= <?php bloginfo( 'charset' ); ?>
+  <meta charset="utf-8">
+  <title><?php wp_title(); ?></title>
+  <!-- Definir viewport para dispositivos web móviles -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="color.css">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="typography.css">
+  <link rel="stylesheet" href="utilities.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body <?php body_class(); ?>
+    <section class="spot-u-fill--complementary spot-l-top-bar">
+      <div class="spot-l-container spot-u-width--full">
+        <div class="spot-l-top-bar spot-u-justify-content--space-between spot-u-top-bar--padding">
+          <div class="top-bar__p">
+            <p class=" spot-u-color--white">Atención al cliente | <b>01 (55) 8000 6555</b> | <a class="spot-u-text-decoration--none spot-u-color--white" href="#">hola@inverspot.mx</a> | <a class="spot-u-text-decoration--none spot-u-color--white" href="#">Conoce nuestros casos de éxito</a></p>
+          </div>
+          <div class="top-bar__icons">
+            <a href="#"><i class="spot-u-color--white fa fa-vimeo spot-u-text-decoration--none" aria-hidden="true"></i></a>
+            <a href="#"><i class="spot-u-color--white fa fa-crosshairs spot-u-text-decoration--none" aria-hidden="true"></i></a>
+            <a href="#"><i class="spot-u-color--white fa fa-youtube spot-u-text-decoration--none" aria-hidden="true"></i></a>
+            <a href="#"><i class="spot-u-color--white fa fa-twitter spot-u-text-decoration--none" aria-hidden="true"></i></a>
+            <a href="#"><i class="spot-u-color--white fa fa-facebook spot-u-text-decoration--none" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="spot-u-fill--primary">
+      <div class="spot-l-container spot-u-display--flex spot-u-padding-y--1 spot-u-width--full">
+        <div class="spot-l-container-collapsed spot-u-width--full spot-u-float--left spot-u-display--flex spot-u-justify-content--space-between">
+          <a class="spot-u-text-decoration--none" href="#">
+            <div class="brand ">
+              <img class="" alt="Inverspot" src="http://inverspot.apps-1and1.com/wp-content/uploads/2017/11/inverspotblanco.png">
+              <p class="spot-u-color--white spot-h4">Tu punto de inversión inmobiliario</p>
+            </div>
+          </a>
+          <button type="button" class="spot-c-header__button spot-u-fill--primary spot-u-color--white" data-toggle="collapse" data-target="#navbar-1">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="spot-l-menu spot-u-float--right spot-u-margin--auto spot-u-color--white">
+          <b><?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu__items', 'menu_class' => '' ) ); ?></b>
+        </div>
+      </div>
+    </header>

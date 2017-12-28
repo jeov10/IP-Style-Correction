@@ -218,3 +218,77 @@ Styleguide 4.3.0
 .spot-c-info-icon {
   width: 100%;
 }
+
+.spot-c-header__button {
+  border: none;
+  padding: 0px;
+  margin-left: 1rem;
+}
+
+.spot-c-banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.spot-c-banner__img .spot-u-fill-img-community {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/1.png);
+}
+
+.spot-c-banner__img .spot-u-fill-img-yay {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/2.png);
+}
+
+.spot-c-banner__img .spot-u-ratio-img {
+    padding-top: 29.5%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    background-size: 100%;
+}
+
+.spot-c-mini-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+}
+
+.spot-c-mini-icons__icon {
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+}
+
+.spot-c-mini-icons__icon.spot-c-mini-icons__icon--tw {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/Twitter.png);
+}
+.spot-c-mini-icons__icon.spot-c-mini-icons__icon--fb {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/Facebook.png);
+}
+.spot-c-mini-icons__icon.spot-c-mini-icons__icon--li {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/Linkedin.png);
+}
+.spot-c-mini-icons__icon.spot-c-mini-icons__icon--yt {
+    background-image: url(https://inverspot.mx/wp-content/themes/is-theme/img/YouTube.png);
+}
+
+.spot-c-mini-icons__icon.spot-c-mini-icons__icon--primary-dot {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.spot-c-casos__img-top {
+  display: none;
+}
+
+.spot-c-casos__titles {
+  width: 100%;
+}
+
+.spot-u-casos__info {
+  width: 100%;
+}
+
+.spot-c-casos__info-img {
+  width: 100%;
+}

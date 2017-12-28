@@ -51,3 +51,41 @@ Styleguide 1.1.0
   padding-left: 16px;
   padding-right: 16px;
 }
+
+.spot-l-top-bar {
+  display: inline-block;
+}
+
+.spot-l-menu {
+  display: none;
+  width: 100%;
+  padding-bottom: 32px;
+  position: absolute;
+}
+
+.spot-l-menu ul li a {
+  display: block;
+	color: var(--color-white);
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.spot-l-menu ul li {
+	margin-bottom: 16px;
+}
+
+.spot-l-top-bar {
+  display: none;
+}
+
+.spot-l-container-collapsed {
+  padding: 0 16px;
+}
+
+.spot-l-menu__footer {
+  width: 100%;
+}
+
+.spot-l-brand-sitemap__item {
+  width: 100%;
+}

@@ -400,6 +400,10 @@ Styleguide 5.5.0
   padding-left: auto;
 }
 
+.spot-u-top-bar--padding {
+  padding: 4px 0;
+}
+
 /*
 Text-align
 
@@ -674,4 +678,18 @@ Styleguide 5.14.0
 .spot-u-home__footer_img--size {
   width: 200px;
   height: auto;
+}
+
+.spot-u-width--full {
+  width: 100%;
+}
+
+.spot-u-position--relative {
+  position: relative;
+}
+
+.spot-u-abs-bottom-right {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
 }
