@@ -96,6 +96,19 @@ Styleguide 6.0.0
     top: 120px;
   }
 
+  .spot-u-home__footer_img--size {
+    width: 232px;
+    height: auto;
+  }
+
+  .spot-u-home__footer_img--right {
+    text-align: right;
+  }
+
+  .spot-u-home__footer_img--left {
+    text-align: left;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -201,6 +214,11 @@ Styleguide 6.0.0
   }
   .spot-c-casos__right {
     width: 40%;
+  }
+
+  .spot-u-home__footer_img--size {
+    width: 288px;
+    height: auto;
   }
 
 }
